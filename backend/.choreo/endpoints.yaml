@@ -7,6 +7,6 @@ endpoints:
   - name: Todo Service
     port: 5000
     type: REST
-    networkVisibility: Project
+    networkVisibility: Public
     context: /api/todos
     schemaFilePath: swagger.yaml
